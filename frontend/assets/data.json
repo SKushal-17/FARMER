@@ -1,0 +1,164 @@
+
+   [
+    {
+      "id": 1,
+      "name": "Wheat",
+      "use": "Used for making flour, bread, pasta, and other food products.",
+      "image": "URL_to_wheat_image",
+      "price": "₹50 per kg"
+    },
+    {
+      "id": 2,
+      "name": "Rice",
+      "use": "A staple food for a large part of the world's population, used in a variety of dishes.",
+      "image": "URL_to_rice_image",
+      "price": "₹75 per kg"
+    },
+    {
+      "id": 3,
+      "name": "Corn",
+      "use": "Used as food for humans and animals, and in products like corn syrup, ethanol, and cornstarch.",
+      "image": "URL_to_corn_image",
+      "price": "₹50"
+    },
+    {
+      "id": 4,
+      "name": "Soybeans",
+      "use": "Used for making soy products like tofu, soy milk, and as animal feed.",
+      "image": "URL_to_soybeans_image",
+      "price": "₹70 per kg"
+    },
+    {
+      "id": 5,
+      "name": "Potatoes",
+      "use": "A versatile vegetable used in a variety of culinary dishes, from mashed potatoes to chips.",
+      "image": "URL_to_potatoes_image",
+      "price": "₹45 per kg"
+    },
+    {
+      "id": 6,
+      "name": "Tomatoes",
+      "use": "Used in cooking, salads, sauces, and as a base for products like ketchup and tomato paste.",
+      "image": "URL_to_tomatoes_image",
+      "price": "₹20 per kg"
+    },
+    {
+      "id": 7,
+      "name": "Cotton",
+      "use": "Used primarily in the textile industry to make clothing, bedding, and other fabric goods.",
+      "image": "URL_to_cotton_image",
+      "price": "₹500 per unit"
+    },
+    {
+      "id": 8,
+      "name": "Barley",
+      "use": "Used in brewing beer, as animal feed, and in health foods.",
+      "image": "URL_to_barley_image",
+      "price": "₹1000 per kg"
+    },
+    {
+      "id": 9,
+      "name": "Sugarcane",
+      "use": "Used to produce sugar, molasses, and ethanol.",
+      "image": "URL_to_sugarcane_image",
+      "price": "₹100 per pair"
+    },
+    {
+      "id": 10,
+      "name": "Peanuts",
+      "use": "Consumed as food, used in making peanut butter, and in the production of oil.",
+      "image": "URL_to_peanuts_image",
+      "price": "₹100 per kg"
+    },
+    {
+      "id": 11,
+      "name": "Tractor",
+      "use": "Pulling and powering various farm equipment for tasks like plowing, tilling, planting, and harvesting.",
+      "image": "tractor_image_url",
+      "price": "₹6,00,000 "
+    },
+    {
+      "id":12,
+      "name": "Combine Harvester",
+      "use": "A multi-functional machine used for harvesting, threshing, and winnowing crops in a single pass.",
+      "image": "combine_harvester_image_url",
+      "price": "₹10,00,000 "
+    },
+    {
+      "id": 13,
+      "name": "Rotavator",
+      "use": "An attachment for the tractor used for tilling the soil and breaking up large clods, making the soil smooth and ideal for sowing.",
+      "image": "rotavator_image_url",
+      "price": "₹60,000"
+    },
+    {
+      "id": 14,
+      "name": "Seed Drill",
+      "use": "An attachment for the tractor used for tilling the soil and breaking up large clods, making the soil smooth and ideal for sowing.",
+      "image": "seed_drill_image_url",
+      "price": "₹30,000"
+    },
+    {
+      "id": 15,
+      "name": "Cultivator",
+      "use": "A machine that stirs and aerates the soil, helping to control weeds and prepare a suitable seedbed.",
+      "image": "cultivator_image_url",
+      "price": "₹20,000"
+    },
+    {
+      "id": 16,
+      "name": "Harvester",
+      "use": "Gathering mature crops from the fields.",
+      "image": "harvester_image_url",
+      "price": "₹10,00,000"
+    },
+    {
+      "id": 17,
+      "name": "Irrigation System",
+      "use": "Providing water to crops through various methods like sprinklers, drip lines, or pivots.",
+      "image": "irrigation_system_image_url",
+      "price": "₹10,00,000"
+    },
+    {
+      "id": 18,
+      "name": "Sprayer",
+      "use": "A machine used to apply pesticides, herbicides, and fertilizers in liquid form across large areas effectively.",
+      "image": "irrigation_system_image_url",
+      "price": "₹3,000"
+    },
+    {
+      "id": 19,
+      "name": "Power Tiller",
+      "use": "A compact machine suitable for tilling, weeding, and small-scale plowing, ideal for small and medium farms.",
+      "image": "power_tiller_image_url",
+      "price": "₹75,000"
+    },
+    {
+      "id": 20,
+      "name": "Sugarcane Harvester",
+      "use": "A specialized machine used to cut and collect sugarcane in large quantities.",
+      "image": "sugarcane_harvester_image_url",
+      "price": "₹15,00,000"
+    },
+    {
+      "id": 21,
+      "name": "Paddy Thresher",
+      "use": "Separates rice grains from their stalks after harvesting, reducing manual labor.",
+      "image": "paddy_thresher_image_url",
+      "price": "₹10,00,000"
+    },
+    {
+      "id": 22,
+      "name": "Hydraulic Trailer",
+      "use": "A trailer used for transporting goods on the farm, equipped with a hydraulic lift for easier unloading.",
+      "image": "hydraulic_trailer_image_url",
+      "price": "₹50,000"
+    },
+    {
+      "id": 23,
+      "name": "Laser Land Lever",
+      "use": "Uses laser technology to achieve a uniform land level, improving water distribution and crop yield.",
+      "image": "laserland_lever_image_url",
+      "price": "₹3,00,000"
+    }
+  ]

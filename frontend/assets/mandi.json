@@ -1,0 +1,528 @@
+{
+    "created": 1627939168,
+    "updated": 1730872828,
+    "created_date": "2021-08-02T21:19:28Z",
+    "updated_date": "2024-11-06T06:00:28Z",
+    "active": "1",
+    "index_name": "9ef84268-d588-465a-a308-a864a43d0070",
+    "org": [
+        "Ministry of Agriculture and Farmers Welfare",
+        "Department of Agriculture and Farmers Welfare"
+    ],
+    "org_type": "Central",
+    "source": "data.gov.in",
+    "title": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "external_ws_url": "",
+    "visualizable": "1",
+    "field": [
+        {
+            "name": "State",
+            "id": "state",
+            "type": "keyword"
+        },
+        {
+            "name": "District",
+            "id": "district",
+            "type": "keyword"
+        },
+        {
+            "name": "Market",
+            "id": "market",
+            "type": "keyword"
+        },
+        {
+            "name": "Commodity",
+            "id": "commodity",
+            "type": "keyword"
+        },
+        {
+            "name": "Variety",
+            "id": "variety",
+            "type": "keyword"
+        },
+        {
+            "name": "Grade",
+            "id": "grade",
+            "type": "keyword"
+        },
+        {
+            "name": "Arrival_Date",
+            "id": "arrival_date",
+            "type": "date"
+        },
+        {
+            "name": "Min_x0020_Price",
+            "id": "min_price",
+            "type": "double"
+        },
+        {
+            "name": "Max_x0020_Price",
+            "id": "max_price",
+            "type": "double"
+        },
+        {
+            "name": "Modal_x0020_Price",
+            "id": "modal_price",
+            "type": "double"
+        }
+    ],
+    "external_ws": 0,
+    "catalog_uuid": "6141ea17-a69d-4713-b600-0a43c8fd9a6c",
+    "sector": [
+        "Agriculture",
+        "Agricultural Marketing"
+    ],
+    "target_bucket": {
+        "field": "9ef84268-d588-465a-a308-a864a43d0070",
+        "index": "daily_mandi_price",
+        "type": "6141ea17-a69d-4713-b600-0a43c8fd9a6c"
+    },
+    "desc": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+    "field_exposed": [
+        {
+            "name": "State",
+            "id": "state.keyword",
+            "type": "keyword"
+        },
+        {
+            "name": "District",
+            "id": "district",
+            "type": "keyword"
+        },
+        {
+            "name": "Market",
+            "id": "market",
+            "type": "keyword"
+        },
+        {
+            "name": "Commodity",
+            "id": "commodity",
+            "type": "keyword"
+        },
+        {
+            "name": "Variety",
+            "id": "variety",
+            "type": "keyword"
+        },
+        {
+            "name": "Grade",
+            "id": "grade",
+            "type": "keyword"
+        }
+    ],
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 5622,
+    "count": 5622,
+    "limit": "all",
+    "offset": "0",
+    "records": [
+        {
+            "state": "Andhra Pradesh",
+            "commodity": "Groundnut",
+            "min_price": "6780",
+            "max_price": "6850",
+            "modal_price": "6800"
+        },
+        {
+            "state": "Gujarat",
+            "commodity": "Soyabean",
+            "min_price": "3500",
+            "max_price": "4500",
+            "modal_price": "4000"
+        },
+        {
+            "state": "Gujarat",
+            "commodity": "Green Gram (Moong)(Whole)",
+            "min_price": "6260",
+            "max_price": "8025",
+            "modal_price": "7143"
+        },
+        {
+            "state": "Gujarat",
+            "commodity": "Brinjal",
+            "min_price": "4000",
+            "max_price": "6000",
+            "modal_price": "5000"
+        },
+        {
+            "state": "Haryana",
+            "commodity": "Capsicum",
+            "min_price": "3500",
+            "max_price": "3500",
+            "modal_price": "3500"
+        },
+        {
+            "state": "Haryana",
+            "commodity": "Apple",
+            "min_price": "5000",
+            "max_price": "5000",
+            "modal_price": "5000"
+        },
+        {
+            "state": "Himachal Pradesh",
+            "commodity": "Guava",
+            "min_price": "2200",
+            "max_price": "2600",
+            "modal_price": "2500"
+        },
+        {
+            "state": "Himachal Pradesh",
+            "commodity": "Mousambi(Sweet Lime)",
+            "min_price": "2200",
+            "max_price": "2500",
+            "modal_price": "2500"
+        },
+        {
+            "state": "Himachal Pradesh",
+            "commodity": "Potato",
+            "min_price": "1500",
+            "max_price": "2000",
+            "modal_price": "2000"
+        },
+        {
+            "state": "Himachal Pradesh",
+            "commodity": "Bottle gourd",
+            "min_price": "4800",
+            "max_price": "5000",
+            "modal_price": "4900"
+        },
+        {
+            "state": "Kerala",
+            "commodity": "Amphophalus",
+            "min_price": "5000",
+            "max_price": "5300",
+            "modal_price": "5100"
+        },
+        {
+            "state": "Kerala",
+            "commodity": "Banana",
+            "min_price": "7000",
+            "max_price": "7200",
+            "modal_price": "7100"
+        },
+        {
+            "state": "Kerala",
+            "commodity": "Banana - Green",
+            "min_price": "5000",
+            "max_price": "5200",
+            "modal_price": "5100"
+        },
+        {
+            "state": "Kerala",
+            "commodity": "Beetroot",
+            "min_price": "4000",
+            "max_price": "4200",
+            "modal_price": "4100"
+        },
+        {
+            "state": "Kerala",
+            "commodity": "Carrot",
+            "min_price": "5000",
+            "max_price": "5500",
+            "modal_price": "5000"
+        },
+        {
+            "state": "Madhya Pradesh",
+            "commodity": "Maize",
+            "min_price": "2100",
+            "max_price": "2100",
+            "modal_price": "2100"
+        },
+        {
+            "state": "Madhya Pradesh",
+            "commodity": "Bengal Gram(Gram)(Whole)",
+            "min_price": "2100",
+            "max_price": "2251",
+            "modal_price": "2181"
+        },
+        {
+            "state": "Madhya Pradesh",
+            "commodity": "Wheat",
+            "min_price": "6300",
+            "max_price": "6500",
+            "modal_price": "6500"
+        },
+        {
+            "state": "Madhya Pradesh",
+            "commodity": "Soyabean",
+            "min_price": "2000",
+            "max_price": "2050",
+            "modal_price": "2050"
+        },
+        {
+            "state": "Madhya Pradesh",
+            "commodity": "Cotton",
+            "min_price": "2500",
+            "max_price": "2600",
+            "modal_price": "2600"
+        },
+        {
+            "state": "Nagaland",
+            "commodity": "Pumpkin",
+            "min_price": "2500",
+            "max_price": "3000",
+            "modal_price": "2700"
+        },
+        {
+            "state": "Odisha",
+            "commodity": "Garlic",
+            "min_price": "27800",
+            "max_price": "28200",
+            "modal_price": "28000"
+        },
+        {
+            "state": "Odisha",
+            "commodity": "Little gourd (Kundru)",
+            "min_price": "2800",
+            "max_price": "3200",
+            "modal_price": "3000"
+        },
+        {
+            "state": "Punjab",
+            "commodity": "Cabbage",
+            "min_price": "3500",
+            "max_price": "3550",
+            "modal_price": "3500"
+        },
+        {
+            "state": "Punjab",
+            "commodity": "Cauliflower",
+            "min_price": "2000",
+            "max_price": "2000",
+            "modal_price": "2000"
+        },
+        {
+            "state": "Punjab",
+            "commodity": "Tomato",
+            "min_price": "1700",
+            "max_price": "1800",
+            "modal_price": "1750"
+        },
+        {
+            "state": "Punjab",
+            "commodity": "Coriander(Leaves)",
+            "min_price": "2100",
+            "max_price": "2500",
+            "modal_price": "2200"
+        },
+        {
+            "state": "Rajasthan",
+            "commodity": "Onion",
+            "min_price": "3700",
+            "max_price": "4500",
+            "modal_price": "4200"
+        },
+        {
+            "state": "Rajasthan",
+            "commodity": "Moath Dal",
+            "min_price": "1700",
+            "max_price": "1700",
+            "modal_price": "1700"
+        },
+        {
+            "state": "Rajasthan",
+            "commodity": "Lime",
+            "min_price": "4145",
+            "max_price": "4740",
+            "modal_price": "4621"
+        },
+        {
+            "state": "Rajasthan",
+            "commodity": "Pineapple",
+            "min_price": "2200",
+            "max_price": "2400",
+            "modal_price": "2300"
+        },
+        {
+            "state": "Tamil Nadu",
+            "commodity": "Coconut",
+            "min_price": "4500",
+            "max_price": "5400",
+            "modal_price": "5400"
+        },
+        {
+            "state": "Tamil Nadu",
+            "commodity": "Beans",
+            "min_price": "5000",
+            "max_price": "5400",
+            "modal_price": "5400"
+        },
+        {
+            "state": "Tamil Nadu",
+            "commodity": "Amaranthus",
+            "min_price": "10000",
+            "max_price": "11000",
+            "modal_price": "11000"
+        },
+        {
+            "state": "Tamil Nadu",
+            "commodity": "Ashgourd",
+            "min_price": "2500",
+            "max_price": "3000",
+            "modal_price": "3000"
+        },
+        {
+            "state": "Tamil Nadu",
+            "commodity": "Beetroot",
+            "min_price": "1500",
+            "max_price": "1800",
+            "modal_price": "1800"
+        },
+        {
+            "state": "Uttrakhand",
+            "commodity": "Gur(Jaggery)",
+            "min_price": "1700",
+            "max_price": "2100",
+            "modal_price": "1900"
+        },
+        {
+            "state": "Uttrakhand",
+            "commodity": "Bottle gourd",
+            "min_price": "600",
+            "max_price": "1000",
+            "modal_price": "800"
+        },
+        {
+            "state": "Uttrakhand",
+            "commodity": "Green Peas",
+            "min_price": "7500",
+            "max_price": "9000",
+            "modal_price": "8000"
+        },
+        {
+            "state": "Uttrakhand",
+            "commodity": "Potato",
+            "min_price": "2000",
+            "max_price": "2500",
+            "modal_price": "2200"
+        },
+        {
+            "state": "Gujarat",
+            "commodity": "Green Chilli",
+            "min_price": "8500",
+            "max_price": "9900",
+            "modal_price": "9500"
+        },
+        {
+            "state": "Gujarat",
+            "commodity": "Raddish",
+            "min_price": "5750",
+            "max_price": "9005",
+            "modal_price": "7378"
+        },
+        {
+            "state": "Gujarat",
+            "commodity": "Onion",
+            "min_price": "1600",
+            "max_price": "2100",
+            "modal_price": "1850"
+        },
+        {
+            "state": "Haryana",
+            "commodity": "Capsicum",
+            "min_price": "3400",
+            "max_price": "3500",
+            "modal_price": "3400"
+        },
+        {
+            "state": "Haryana",
+            "commodity": "Ginger(Green)",
+            "min_price": "3400",
+            "max_price": "3500",
+            "modal_price": "3400"
+        },
+        {
+            "state": "Haryana",
+            "commodity": "Potato",
+            "min_price": "3500",
+            "max_price": "4000",
+            "modal_price": "3800"
+        },
+        {
+            "state": "Karnataka",
+            "commodity": "Bajra(Pearl Millet\/Cumbu)",
+            "min_price": "1990",
+            "max_price": "3100",
+            "modal_price": "2270"
+        },
+        {
+            "state": "Uttar Pradesh",
+            "commodity": "Bitter gourd",
+            "min_price": "300",
+            "max_price": "320",
+            "modal_price": "310"
+        },
+        {
+            "state": "Uttar Pradesh",
+            "commodity": "Apple",
+            "min_price": "3300",
+            "max_price": "3500",
+            "modal_price": "3400"
+        },
+        {
+            "state": "Uttar Pradesh",
+            "commodity": "Onion",
+            "min_price": "1900",
+            "max_price": "2100",
+            "modal_price": "2000"
+        },
+        {
+            "state": "Uttrakhand",
+            "commodity": "Bhindi(Ladies Finger)",
+            "min_price": "1800",
+            "max_price": "2200",
+            "modal_price": "1950"
+        },
+        {
+            "state": "Uttrakhand",
+            "commodity": "Ridgeguard(Tori)",
+            "min_price": "2100",
+            "max_price": "2500",
+            "modal_price": "2300"
+        },
+        {
+            "state": "Uttrakhand",
+            "commodity": "Cauliflower",
+            "min_price": "1557",
+            "max_price": "1757",
+            "modal_price": "1657"
+        },
+        {
+            "state": "Uttrakhand",
+            "commodity": "Maize",
+            "min_price": "3000",
+            "max_price": "3400",
+            "modal_price": "3200"
+        },
+        {
+            "state": "Uttrakhand",
+            "commodity": "Tomato",
+            "min_price": "1260",
+            "max_price": "1460",
+            "modal_price": "1360"
+        },
+        {
+            "state": "Uttrakhand",
+            "commodity": "Bottle gourd",
+            "min_price": "5000",
+            "max_price": "5200",
+            "modal_price": "5100"
+        },
+        {
+            "state": "Uttrakhand",
+            "commodity": "Green Peas",
+            "min_price": "500",
+            "max_price": "700",
+            "modal_price": "600"
+        },
+        {
+            "state": "Uttrakhand",
+            "commodity": "Mousambi(Sweet Lime)",
+            "min_price": "3100",
+            "max_price": "3400",
+            "modal_price": "3300"
+        }
+    ]
+}
